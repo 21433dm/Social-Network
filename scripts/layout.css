@@ -1,0 +1,132 @@
+/* layout.css */
+body {
+	margin: 0;
+	padding: 0;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Holder {
+	width: 980px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+#logo {
+	width: 500px;
+	height: 100px;
+}
+.Header {
+	height: 70px;
+	margin-bottom: 11px;
+}
+.NavBar {
+	height: 60px;
+	background-color: #3399FF;
+}
+.Content {
+	height: auto;
+	clear: both;
+	overflow: auto;
+}
+.PageHeading {
+	height: auto;
+	padding: 11px;
+}
+.ContentLeft {
+	width: 500px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	/*padding-left: 11px;
+	padding-top: 11px;*/
+}
+.ContentRight {
+	width: 500px;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Form {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.Footer {
+	height: auto;
+	background-color: #3399FF;
+}
+h1 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #666;*/
+	color: #3399FF;
+	font-weight: bold;
+}
+h2 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	/*color: #999;*/
+	color: #3399FF;
+	font-weight: lighter;
+}
+h3 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-weight: lighter;
+}
+h6 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	font-weight: lighter;
+	font-size: 14px;
+}
+.StyleTxtField {
+	border: 1px solid #666;
+	border-radius: 6px;
+	width: 200px;
+	height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 6px;
+	margin: 2px;
+}
+input[type="text"]:hover {
+	border: 1px solid #3399FF;
+}
+input[type="text"]:focus {
+	border: 1px solid #3399ff;
+}
+input[type="password"]:hover {
+	border: 1px solid #3399FF;
+}
+input[type="password"]:focus {
+	border: 1px solid #3399ff;
+}
+input[type="checkbox"] {
+	border: 1px solid #3399FF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+	background-color: #3399FF;
+	border: 1px solid #3399FF;
+	border-radius: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #333;
+	padding: 2px;
+}
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	resize: none;
+	outline: none;
+	color: #2a2a2a;
+}
+.error {
+	color: #FF0000;
+}
